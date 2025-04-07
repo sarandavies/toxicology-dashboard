@@ -18,7 +18,7 @@ only_matched = st.sidebar.checkbox("Show only PubChem-matched drugs", value=Fals
 tox_only = st.sidebar.checkbox("Show only toxicity-flagged entries", value=False)
 
 # Main title
-st.title("🧬 Failed Drug Trial Explorer")
+st.title("🧬 Drugs That Failed Based on Toxicology")
 st.markdown("Use this interactive dashboard to explore failed small molecule drug trials with toxicology links. PubChem matches are highlighted and clickable.")
 
 # Apply filters
